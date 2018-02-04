@@ -1,0 +1,14 @@
+{    
+  "name" : "DeletEBSCOokies",
+  "version" : "0.8",
+  "manifest_version": 2,
+  "description" : "Delete Ebsco Cookies by icon clicked",
+  "icons": { "16": "E.png", "48": "E.png", "128": "E.png" },
+  "permissions": [ "cookies", "*://*.ebsco.healthcare/", "*://*.ebsco.zone/*"],
+  "browser_action": {
+  "default_icon": "E.png"
+  },
+  "background": {
+  "scripts": ["handler.js"]
+  }
+}
